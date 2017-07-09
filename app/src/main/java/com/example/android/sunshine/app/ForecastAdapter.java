@@ -18,7 +18,9 @@ import java.util.*;
 
 
 
-public class ForecastAdapter extends CursorAdapter,ViewType {
+
+public class ForecastAdapter extends CursorAdapter {
+
 	
     private static final int VIEW_TYPE_COUNT = 2;
     private static final int VIEW_TYPE_TODAY = 0;
